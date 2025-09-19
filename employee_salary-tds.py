@@ -1,47 +1,44 @@
-salary =float(input())
-total=0
-sal=0
-if salary >=500000:
-    salary=salary-300000
+import streamlit as st
 
-    if salary/300000 >= 1:
-        salary=salary-300000
-        tds=300000*0.05
-        total=total+tds
+st.title("Income Tax Calculator ")
 
+# Input salary from user
+salary = st.number_input("Enter your salary:")
+
+total = 0
+remaining = salary
+
+if remaining >= 500000:
+    remaining -= 300000
+
+    # 5% on next 300,000
+    if remaining >= 300000:
+        total += 300000 * 0.05
+        remaining -= 300000
     else:
-        
-        sal=salary%300000
-        tds=sal*0.05
-        total=total+tds
+        total += remaining * 0.05
+        remaining = 0
 
-    if salary/300000 >= 1:
-        salary=salary-300000
-        tds=300000*0.1
-        total=total+tds
-
+    # 10% on next 300,000
+    if remaining >= 300000:
+        total += 300000 * 0.1
+        remaining -= 300000
     else:
-        
-        sal=salary%300000
-        tds=sal*0.1
-        total=total+tds
+        total += remaining * 0.1
+        remaining = 0
 
-    if salary/600000 >= 1:
-        salary=salary-600000
-        tds=600000*0.15
-        total=total+tds
-
+    # 15% on next 600,000
+    if remaining >= 600000:
+        total += 600000 * 0.15
+        remaining -= 600000
     else:
-        
-        sal=salary%600000
-        tds=sal*0.15
-        total=total+tds
+        total += remaining * 0.15
+        remaining = 0
 
-    if salary >0:
-        tds=salary*0.3
-        total=total+tds
+    # 30% on anything above
+    if remaining > 0:
+        total += remaining * 0.3
 
-    print(total)
-    
-    
-    
+# Show result
+st.subheader("Total Tax (TDS):")
+st.write(f"₹ {total:,.2f}")
