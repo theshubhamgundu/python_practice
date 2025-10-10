@@ -60,3 +60,52 @@ If you wish to run these apps locally:
    ```bash
    git clone https://github.com/your-username/streamlit-python-projects.git
    cd streamlit-python-projects
+
+Install dependencies:
+pip install streamlit numpy
+
+Run the Streamlit app:
+streamlit run app.py
+
+
+or any other file, for example:
+
+streamlit run numpy_app.py
+
+🧰 Technologies Used
+
+Python 3.10+
+
+Streamlit — Interactive web app framework
+
+NumPy — Numerical computing library
+
+Datetime — For date-based operations
+
+GitHub — Version control and code hosting
+
+🎯 Learning Objectives
+
+Understand core Python concepts and apply them interactively.
+
+Learn how to convert Python scripts and Jupyter notebooks into Streamlit apps.
+
+Explore NumPy data types and multi-dimensional arrays.
+
+Build and deploy simple Python-based web utilities using Streamlit.
+
+Strengthen foundational programming, logic, and data handling skills.
+
+
+
+👨‍💻 Author Information
+
+Name: Shubham Vasant Gundu
+Roll No: 23891A7228
+Branch: Artificial Intelligence & Data Science (AI & DS)
+Email: shubhamvasantgundu@gmail.com
+
+🏁 Conclusion
+
+This collection highlights how Python fundamentals can be transformed into interactive, user-friendly web apps using Streamlit.
+It combines simplicity, interactivity, and educational value — ideal for learning, teaching, and showcasing programming proficiency.
