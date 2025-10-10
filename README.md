@@ -1,7 +1,7 @@
-# Streamlit Python Mini Projects Collection
+# 🧠 Streamlit Python Mini Projects Collection
 
 This repository contains a collection of **interactive Python mini projects** built using [Streamlit](https://streamlit.io/).  
-Each app demonstrates Python programming concepts — from basic logic and loops to applied numerical computing using NumPy — presented in an interactive web-based format.
+Each app demonstrates key **Python programming concepts** — from basic logic and loops to applied numerical computing with **NumPy** — all presented through simple, interactive web-based applications.
 
 ---
 
@@ -10,102 +10,90 @@ Each app demonstrates Python programming concepts — from basic logic and loops
 | # | App Name | Description | Live Link |
 |---|-----------|--------------|------------|
 | 1 | **Age Calculator** | Calculates age in years, months, and days based on the entered birth date. | [Open App](https://age-calculator1.streamlit.app/) |
-| 2 | **Mini Programs - 2** | A set of small Python tasks demonstrating string handling, list operations, and logic. | [Open App](https://mini-programs-2.streamlit.app/) |
-| 3 | **Mini Programs - 1** | Interactive Python exercises such as area calculation, vowel counting, and index operations. | [Open App](https://mini-programs-1.streamlit.app/) |
-| 4 | **Python Practice / NumPy Demo** | Demonstrates NumPy concepts: arrays, shapes, sizes, and data types. | [Open App](https://pythonpractice-uok3upckhorycngorq4xqe.streamlit.app/) |
-| 5 | **Petrol Price Calculator** | Calculates the total petrol cost based on price per liter and quantity. | [Open App](https://petrol-p.streamlit.app/) |
+| 2 | **Mini Programs - 2** | A set of small Python tasks demonstrating string handling, list operations, and logical programming. | [Open App](https://mini-programs-2.streamlit.app/) |
+| 3 | **Mini Programs - 1** | Interactive exercises such as area calculation, vowel counting, and index-based operations. | [Open App](https://mini-programs-1.streamlit.app/) |
+| 4 | **Python Practice / NumPy Demo** | Demonstrates NumPy concepts — arrays, shapes, sizes, and data types. | [Open App](https://pythonpractice-uok3upckhorycngorq4xqe.streamlit.app/) |
+| 5 | **Petrol Price Calculator** | Calculates total petrol cost based on price per liter and quantity. | [Open App](https://petrol-p.streamlit.app/) |
 
 ---
 
-## 🧮 Project Overview
+## 🧩 Project Overview
 
 ### 1. Age Calculator
-- Uses the `datetime` module to compute age accurately.
-- Displays output dynamically with Streamlit.
-- Simple, user-friendly interface.
+- Uses Python’s `datetime` module to calculate accurate age in years, months, and days.
+- Displays results dynamically through Streamlit.
+- Simple, intuitive user interface.
 
 ### 2. Mini Programs - 1
 Includes:
-- Area of a Circle calculation  
-- Vowel and Consonant counting  
-- Subtracting 5 from numbers divisible by 5  
-- Even and Odd index separation  
-- Summation of indices (even/odd)  
-- Filtering cities by first letter or numerical value  
+- Area of a Circle Calculation  
+- Vowel and Consonant Counting  
+- Subtracting 5 from Numbers Divisible by 5  
+- Separating Even and Odd Indices  
+- Summing Even and Odd Indices  
+- Filtering Cities by First Letter or Numerical Value  
 
 ### 3. Mini Programs - 2
-Continuation of Python logical exercises focusing on:
-- String manipulation  
-- List processing  
-- Loop and conditional logic  
-- Basic mathematical computations  
+Continuation of Python logic exercises focused on:
+- String Manipulation  
+- List Processing  
+- Loops and Conditionals  
+- Basic Mathematical Operations  
 
 ### 4. NumPy Practice / Python Concepts
-- Demonstrates **NumPy arrays** and their properties.  
-- Shows usage of various data types: `int8`, `int16`, `float32`, `complex64`, `bool`, and more.  
-- Interactive visualization of array structures and attributes.  
+- Demonstrates **NumPy arrays** and their core attributes.  
+- Explores multiple data types: `int8`, `int16`, `float32`, `complex64`, `bool`, etc.  
+- Interactive exploration of array structures, dimensions, and element types.  
 
 ### 5. Petrol Price Calculator
-- Takes petrol price per liter and liters as input.  
-- Calculates total amount payable.  
-- Demonstrates Streamlit input/output widgets and arithmetic logic.  
+- Takes petrol price per liter and liters as user input.  
+- Calculates and displays the total payable amount instantly.  
+- Demonstrates arithmetic logic and Streamlit I/O widgets.  
 
 ---
 
 ## ⚙️ How to Run Locally
 
-If you wish to run these apps locally:
+To run these Streamlit apps on your local system:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/streamlit-python-projects.git
-   cd streamlit-python-projects
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/streamlit-python-projects.git
+cd streamlit-python-projects
+```
 
-Install dependencies:
+### 2. Install Dependencies
+```bash
 pip install streamlit numpy
+```
 
-Run the Streamlit app:
+### 3. Run Any Streamlit App
+```bash
 streamlit run app.py
-
-
-or any other file, for example:
-
+```
+or for a specific project:
+```bash
 streamlit run numpy_app.py
+```
 
-🧰 Technologies Used
+---
 
-Python 3.10+
+## 🧰 Technologies Used
 
-Streamlit — Interactive web app framework
+- **Python 3.10+**
+- **Streamlit** — Interactive web app framework  
+- **NumPy** — Numerical computing library  
+- **Datetime** — Date-based calculations  
+- **GitHub** — Version control and code hosting  
 
-NumPy — Numerical computing library
+---
 
-Datetime — For date-based operations
+## 👨‍💻 Author Information
 
-GitHub — Version control and code hosting
-
-🎯 Learning Objectives
-
-Understand core Python concepts and apply them interactively.
-
-Learn how to convert Python scripts and Jupyter notebooks into Streamlit apps.
-
-Explore NumPy data types and multi-dimensional arrays.
-
-Build and deploy simple Python-based web utilities using Streamlit.
-
-Strengthen foundational programming, logic, and data handling skills.
+**Name:** Shubham Vasant Gundu  
+**Roll No:** 23891A7228  
+**Branch:** Artificial Intelligence & Data Science (AI & DS)  
+**Email:** [shubhamvasantgundu@gmail.com](mailto:shubhamvasantgundu@gmail.com)
 
 
-
-👨‍💻 Author Information
-
-Name: Shubham Vasant Gundu
-Roll No: 23891A7228
-Branch: Artificial Intelligence & Data Science (AI & DS)
-Email: shubhamvasantgundu@gmail.com
-
-🏁 Conclusion
-
-This collection highlights how Python fundamentals can be transformed into interactive, user-friendly web apps using Streamlit.
-It combines simplicity, interactivity, and educational value — ideal for learning, teaching, and showcasing programming proficiency.
+---
